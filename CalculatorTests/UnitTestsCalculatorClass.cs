@@ -21,7 +21,7 @@ namespace CalculatorNSTests
             double result = calc.add(value1, value2);
 
             // Assert
-            Assert.AreEqual(expectedValue, result,"Add Function not working correct");
+            Assert.AreEqual(expectedValue, result,"Add Function - not working correct");
         }
 
         [TestMethod]
@@ -37,7 +37,7 @@ namespace CalculatorNSTests
             double result = calc.multiply(value1, value2);
 
             // Assert
-            Assert.AreEqual(expectedValue, result, "Multiply Function not working correct");
+            Assert.AreEqual(expectedValue, result, "Multiply Function - not working correct");
         }
 
         [TestMethod]
@@ -53,7 +53,7 @@ namespace CalculatorNSTests
             double result = calc.divide(value1, value2);
 
             // Assert
-            Assert.AreEqual(expectedValue, result, "Multiply Function not working correct");
+            Assert.AreEqual(expectedValue, result, "Divide Function - not working correct");
         }
     }
 }
